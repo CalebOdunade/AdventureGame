@@ -11,15 +11,6 @@ public class Map {
 	 * @param y
 	 * @return Room
 	 */
-
-
-
-	/**
-	 * Hi! I'm a 2 dimensional array!  Though I look kinda weird,
-	 * I'm here to help make your programs better.  But don't worry, 
-	 * you don't have to use me for this project.  If you're curious how
-	 * I work, see chapter 7 in your textbook.
-	 */
 private Room[][] myMap;
     
     public Map(int size) {
@@ -30,13 +21,6 @@ private Room[][] myMap;
         return myMap[x][y];
     }
 	
-	/**
-	 * Hey wassup dawg?  I'ma constructor.  I make the objects round these parts, 
-	 * sometimes without even trying, knowwhatimssayin?
-	 * Yall don't haveta worry 'bout me for this'ere game, but look me up in 
-	 * Chapter 6 sometime. Kay?
-	 *   
-	 */
 	
 	public void displayFancyMap(int playerX, int playerY) {
 		 if (playerY == 0 && playerX == 0) {
@@ -370,25 +354,6 @@ private Room[][] myMap;
 	}
 	
 	/**
-	 * PAY NO ATTENTION TO THE METHOD BEHIND THE CURTAIN!!!!
-	 * _________________________________________________
-	 * | | | | | | | | | | | | | | | | | | | | | | | | |
-	 * | | | | | | | | | | | | | | | | | | | | | | | | |
-	 * | | | | | | | | | | | | | | | | | | | | | | | | |
-	 * | | | | | | | | | | | | | | | | | | | | | | | | |
-	 * | | | | | | | | | | | | | | | | | | | | | | | | |
-	 * | | | | | | | | | | | | | | | | | | | | | | | | |
-	 * | | | | | | | | | | | | | | | | | | | | | | | | |
-	 * | | | | | | | | | | | | | | | | | | | | | | | | |
-	 * | | | | | | | | | | | | | | | | | | | | | | | | |
-	 * | | | | | | | | | | | | | | | | | | | | | | | | |
-	 * | | | | | | | | | | | | | | | | | | | | | | | | |
-	 * -------------------------------------------------
-	 * 
-	 * 
-	 * Seriously don't look below until you've completed the project,
-	 * it'll spoil the surprise!
-	 * 
 	 * @param x
 	 * @param y
 	 * @param theChest
